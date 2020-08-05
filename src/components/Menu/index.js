@@ -7,7 +7,7 @@ import ButtonLink from './ButtonLink';
 function Menu() {
   return (
     <nav className="Menu">
-      <Link t o="/">
+      <Link to="/">
         <img className="Logo" src={Logo} alt="Logo Aluraflix" />
       </Link>
 

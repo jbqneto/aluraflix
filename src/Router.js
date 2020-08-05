@@ -1,16 +1,16 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-import Menu from './components/Menu';
 import Home from './pages/Home';
+import CadastroVideo from './pages/Video';
 
 const Router = () => {
   return (
     <>
-      <Menu />
       <BrowserRouter>
         <Switch>
-          <Route path="/" component={Home} />
+          <Route path="/" component={Home} exact />
+          <Route path="/cadastro/video" component={CadastroVideo} exact />
         </Switch>
       </BrowserRouter >
     </>

@@ -1,14 +1,11 @@
 import React from 'react';
 import './App.css';
-import Menu from './components/Menu';
-import BannerMain from './components/BannerMain';
-import Carousel from './components/Carousel';
-import Frooter from './components/Footer';
+import Router from './Router';
 
 function App() {
   return (
     <div className="App">
-      <Menu />
+      <Router />
     </div>
   );
 }
